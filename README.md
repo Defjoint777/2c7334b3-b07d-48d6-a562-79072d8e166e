@@ -50,7 +50,7 @@ This exercise will teach you how to open a file, manipulate it, write it back to
 ### 1.1) Further Readings and Other Sources
 - [Learn-Vim - An extensive guide to vim](https://github.com/iggredible/Learn-Vim)
 - `vimtutor` - An interactive learning-experience if you have `vim` already installed: just type `vimtutor` into your commandline and press `Return`
-
+p
 ## 2) Tasks
 1. **Installing vim**: Install `vim`. Either by using your packagemanager or by downloading the installer from the `vim` website.
 2. **Opening vim**: Navigate to your home-directory. When you arrive, type `vim` and press `Return`. The screen that you now see is an empty home-screen. No file is opened yet.
@@ -72,10 +72,18 @@ This exercise will teach you how to open a file, manipulate it, write it back to
 
 ## 3) Questions
 1. What are the three primary modes of `vim`, and how do you switch between them?
-2. How do you create and save a new file in `vim`?
-3. What is the purpose of the `:enew` command in `vim`?
-4. How can you exit `vim` without saving changes?
-5. What steps should you follow to open an existing file, make edits, and save the changes in `vim`?
+   normal, termina, insert.
+   
+3. How do you create and save a new file in `vim`?
+   1.vim :enew  2.:wq 
+5. What is the purpose of the `:enew` command in `vim`?
+   create new document.
+   
+7. How can you exit `vim` without saving changes?
+ :q!
+
+9. What steps should you follow to open an existing file, make edits, and save the changes in `vim`?
+    vim <Document-Name>, i to jump in Insertmode, :wq (Write and quit)
 
 ## 4) Advice
 Try different other editors in your command-line, to get more familiar with the concept of terminal editing. Other common editors are `nano`, `emacs` or `helix`.
